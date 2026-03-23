@@ -20,5 +20,5 @@ test('get started link', async ({ page }) => {
 });
 test('vrify title', async ({ page }) => {
   await page.goto('https://testautomationpractice.blogspot.com/');
-  await expect(page).toHaveTitle('Automation Testing Practice - Atom');
+  await expect(page).toHaveTitle('Automation Testing Practice');
 });
